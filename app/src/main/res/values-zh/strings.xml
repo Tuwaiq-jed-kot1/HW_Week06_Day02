@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">对话</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="cancel">取消</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="name">姓名</string>
+    <string name="birthday">生日</string>
+    <string name="phone">电话</string>
+    <string name="gender">性别</string>
+    <string name="show_info">显示信息</string>
+    <string name="register">登记</string>
+    <string name="name_main">姓名:</string>
+    <string name="name_main_hint">姓名</string>
+    <string name="birthday_main">生日:</string>
+    <string name="phone_number_main">电话号码</string>
+    <string name="gender_main">性别:</string>
+    <string name="gender_main_hint">性别</string>
+    <string name="send_main">发送</string>
+    <string name="clear_main">清除</string>
+    <string name="clear_q">您确定要清除所有条目吗 ？</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="choose_gender">选择您的性别:</string>
+    <string name="reset">重启</string>
+</resources>

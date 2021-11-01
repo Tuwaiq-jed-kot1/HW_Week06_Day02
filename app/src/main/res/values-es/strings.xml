@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diálogo</string>
+    <string name="yes">sí</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancelar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="name">Nombre</string>
+    <string name="birthday">Cumpleaños</string>
+    <string name="phone">Teléfono</string>
+    <string name="gender">Género</string>
+    <string name="show_info">Mostrar información</string>
+    <string name="register">Registrarse</string>
+    <string name="name_main">Nombre:</string>
+    <string name="name_main_hint">nombre</string>
+    <string name="birthday_main">Cumpleaños:</string>
+    <string name="phone_number_main">número de teléfono</string>
+    <string name="gender_main">Género:</string>
+    <string name="gender_main_hint">Género</string>
+    <string name="send_main">Enviar</string>
+    <string name="clear_main">Claro</string>
+    <string name="clear_q">¿Está seguro de que desea borrar todas las entradas ?</string>
+    <string name="male">Masculino</string>
+    <string name="female">Mujer</string>
+    <string name="choose_gender">Selecciona tu género:</string>
+    <string name="reset">Reiniciar</string>
+</resources>

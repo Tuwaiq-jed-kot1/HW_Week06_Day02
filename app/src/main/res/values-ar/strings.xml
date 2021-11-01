@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حوار</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="cancel">إلغاء</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="name">الأسم</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="phone">الهاتف</string>
+    <string name="gender">الجنس</string>
+    <string name="show_info">المعلومات</string>
+    <string name="register">سجل حساب جديد</string>
+    <string name="name_main">الأسم:</string>
+    <string name="name_main_hint">الأسم</string>
+    <string name="birthday_main">تاريخ الميلاد:</string>
+    <string name="phone_number_main">رقم الهاتف</string>
+    <string name="gender_main">الجنس:</string>
+    <string name="gender_main_hint">الجنس</string>
+    <string name="send_main">أرسال</string>
+    <string name="clear_main">مسح</string>
+    <string name="clear_q">هل أنت متأكد أنك تريد مسح كافة الإدخالات ؟</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="choose_gender">اختيار نوع الجنس:</string>
+    <string name="reset">أعادة للوضع الاصلي</string>
+</resources>

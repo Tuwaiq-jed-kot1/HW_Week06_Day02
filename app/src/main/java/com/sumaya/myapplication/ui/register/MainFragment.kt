@@ -3,7 +3,6 @@ package com.sumaya.myapplication.ui.register
 import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +10,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.hbb20.CountryCodePicker
 import com.sumaya.myapplication.R
 import com.sumaya.myapplication.data.PersonInfo
@@ -24,19 +24,22 @@ class MainFragment : Fragment() {
     companion object {
         fun newInstance() = MainFragment()
     }
+
     //1. Date
-    private lateinit var pickDate : TextView
+    private lateinit var pickDate: TextView
+
     //2. Country Code
     private lateinit var ccp: CountryCodePicker
-    private var countryCode:String? = null
-    private var countryName:String? = null
+    private var countryCode: String? = null
+    private var countryName: String? = null
     private lateinit var phone: EditText
+    private lateinit var name: EditText
 
-    private lateinit var gender : TextView
+    private lateinit var gender: TextView
 
     private lateinit var send: Button
-    private lateinit var clear : Button
-    private lateinit var date :String
+    private lateinit var clear: Button
+    private lateinit var date: String
 
 
     override fun onCreateView(
@@ -49,8 +52,9 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        name = view.findViewById(R.id.name_main)
         // 1. Date Dialog
-        pickDate= view.findViewById(R.id.pickDate)
+        pickDate = view.findViewById(R.id.pickDate)
         pickDate.setOnClickListener {
             getDatePickerDialog()
         }
@@ -64,7 +68,7 @@ class MainFragment : Fragment() {
         }
 
         //3. Alert dialog
-        clear= view.findViewById(R.id.clear)
+        clear = view.findViewById(R.id.clear)
         clear.setOnClickListener {
             getAlertDialog()
         }
@@ -90,22 +94,23 @@ class MainFragment : Fragment() {
         val month = calendar.get(Calendar.MONTH)
         val year = calendar.get(Calendar.YEAR)
 
-        DatePickerDialog(this.requireContext(), DatePickerDialog.OnDateSetListener{ _, y, m, d ->
+        DatePickerDialog(this.requireContext(), DatePickerDialog.OnDateSetListener { _, y, m, d ->
             date = "$d/$m/$y"
             pickDate.setText(date)
-        },year,month, day)
+        }, year, month, day)
             .show()
     }
 
-    private fun getAlertDialog(){
+    private fun getAlertDialog() {
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(getString(R.string.reset))
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(getString(R.string.clear_q))
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
             ccp.resetToDefaultCountry()
+            name.setText(null)
         }
         alert.setNegativeButton(R.string.no) { dialog, which ->
             dialog.cancel()
@@ -116,29 +121,34 @@ class MainFragment : Fragment() {
         alert.show()
     }
 
-    private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+    private fun getSelectionDialog() {
+        val listItems = arrayOf(getString(R.string.male), getString(R.string.female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.choose_gender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
-    private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+    private fun displayPersonalInfo(view: View) {
+        val info = PersonInfo(
+            name.text.toString(),
+            date,
+            "+" + countryCode + phone.text.toString(),
+            gender.text.toString()
+        )
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
-        bundle.putParcelable(KEY,info)
+        bundle.putParcelable(KEY, info)
         val nextFragment = InfoFragment.newInstance()
         nextFragment.arguments = bundle
         activity.supportFragmentManager.beginTransaction()
-            .replace(R.id.container , nextFragment)
+            .replace(R.id.container, nextFragment)
             .addToBackStack("show personal info")
             .commit()
     }

@@ -2,8 +2,28 @@
     <string name="app_name">Dialog</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="key">12CGUU</string>
-    <string name="cancel">cancel</string>
+    <string name="key" translatable="false">12CGUU</string>
+    <string name="cancel">Cancel</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="show_info">Show Info</string>
+    <string name="register">Register</string>
+    <string name="name_main">Name:</string>
+    <string name="name_main_hint">name</string>
+    <string name="birthday_main">Birthday:</string>
+    <string name="dd_mm_yyyy_main" translatable="false">DD/MM/YYYY</string>
+    <string name="phone_number_main">phone number</string>
+    <string name="gender_main">Gender:</string>
+    <string name="gender_main_hint">gender</string>
+    <string name="send_main">Send</string>
+    <string name="clear_main">Clear</string>
+    <string name="clear_q">Are you sure you want to clear all entries ?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="choose_gender">Choose your gender:</string>
+    <string name="reset">Reset</string>
 </resources>
