@@ -10,105 +10,119 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
-            android:textSize="60dp"
-            android:gravity="center"
-            android:text="Register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"/>
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textSize="60dp" />
+
         <LinearLayout
-            android:layout_margin="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Name:"
-                android:paddingRight="10dp"  />
+                android:paddingRight="10dp"
+                android:text="@string/name"
+                android:textSize="20dp" />
+
             <EditText
-                android:textSize="20dp"
-                android:hint="name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:textSize="20dp" />
         </LinearLayout>
+
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_marginBottom="10dp">
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Brithday:"
-                android:paddingRight="10dp"  />
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:text="@string/birthday"
+                android:textSize="20dp" />
+
             <TextView
-                android:textSize="20dp"
-                android:hint="DD/MM/YYYY"
-                android:inputType="date"
                 android:id="@+id/pickDate"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <com.hbb20.CountryCodePicker
-                android:id="@+id/pickCode"
-                app:ccp_hintExampleNumber="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <EditText
-                android:id="@+id/phone"
-                android:hint="phone number"
-                android:inputType="phone"
-                android:textSize="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="DD/MM/YYYY"
+                android:inputType="date"
+                android:textSize="20dp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/pickCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ccp_hintExampleNumber="true" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Gender:"
-                android:paddingRight="10dp"  />
+                android:paddingRight="10dp"
+                android:text="@string/gender"
+                android:textSize="20dp" />
+
             <TextView
-                android:textSize="20dp"
-                android:hint="gender"
-                android:inputType="date"
                 android:id="@+id/gender"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/gender_hint"
+                android:inputType="date"
+                android:textSize="20dp" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:gravity="center">
+
             <Button
-                android:layout_margin="10dp"
                 android:id="@+id/send"
-                android:text="Send"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/send" />
+
             <Button
                 android:id="@+id/clear"
-                android:text="Clear"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="@string/show_info" />
         </LinearLayout>
 
     </LinearLayout>

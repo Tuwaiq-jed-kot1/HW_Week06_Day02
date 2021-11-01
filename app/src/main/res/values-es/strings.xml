@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Cuadro de diálogo </string>
+    <string name = "yes"> Sí </string>
+    <string name = "no"> No </string>
+    <string name = "cancel"> cancelar </string>
+    <string name = "hello_blank_fragment"> Hola fragmento en blanco </string>
+    <string name = "show_info"> Mostrar información </string>
+    <string name = "name"> Nombre: </string>
+    <string name = "birthday"> Cumpleaños: </string>
+    <string name = "phone"> Teléfono: </string>
+    <string name = "gender"> Género: </string>
+    <string name = "register"> Registrarse </string>
+    <string name = "name_hint"> nombre </string>
+    <string name = "phone_hint"> número de teléfono </string>
+    <string name = "gender_hint"> género </string>
+    <string name = "send"> Enviar </string>
+    <string name = "clear"> Borrar </string>
+</resources>
