@@ -3,7 +3,6 @@
     <string name="app_name">Dialog</string>
     <string name = "yes">نعم</string>
     <string name = "no">لا</string>
-    <string name = "key">12CGUU</string>
     <string name = "cancel">إلغاء</string>
     <string name = "hello_blank_fragment"> مرحبا، قطعة فارغة</string>
     <string name = "show_info">إظهار المعلومات</string>

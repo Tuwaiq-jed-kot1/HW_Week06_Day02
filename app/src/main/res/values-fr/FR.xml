@@ -2,7 +2,6 @@
 <resources>    <string name="app_name">Dialog</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
-    <string name="key">12CGUU</string>
     <string name="cancel">annuler</string>
     <string name="hello_blank_fragment">Bonjour fragment vierge</string>
     <string name="show_info">Afficher les informations</string>

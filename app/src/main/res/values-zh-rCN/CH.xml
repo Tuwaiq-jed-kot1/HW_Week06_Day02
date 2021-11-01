@@ -2,7 +2,6 @@
 <resources>    <string name="app_name">Dialog</string>
     <string name="yes">是</string>
     <string name="no">否</string>
-    <string name="key">12CGUU</string>
     <string name="cancel">取消</string>
     <string name="hello_blank_fragment">你好空白片段</string>
     <string name="show_info">显示信息</string>

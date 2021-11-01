@@ -2,7 +2,6 @@
 <resources> <string name = "app_name"> Dialog </string>
     <string name = "yes"> Sí </string>
     <string name = "no"> No </string>
-    <string name = "key"> 12CGUU </string>
     <string name = "cancel"> cancelar </string>
     <string name = "hello_blank_fragment"> Hola fragmento en blanco </string>
     <string name = "show_info"> Mostrar información </string>
