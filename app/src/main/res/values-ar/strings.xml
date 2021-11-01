@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">إلغاء</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_info">اظهار المعلومات</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="name">الاسم</string>
+    <string name="phone">الهاتف</string>
+    <string name="gender">الجنس</string>
+    <string name="register">التجسيل</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="send">ارسال</string>
+    <string name="clear">مسح</string>
+</resources>

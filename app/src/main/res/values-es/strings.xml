@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="yes">sí</string>
+    <string name="no">no</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">cancelar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_info">mostrar información</string>
+    <string name="birthday">cumpleaños</string>
+    <string name="name">nombre</string>
+    <string name="phone">teléfono</string>
+    <string name="gender">género</string>
+    <string name="register">Registrarse</string>
+    <string name="phone_number">"número de teléfono "</string>
+    <string name="send">enviar</string>
+    <string name="clear">clara</string>
+</resources>
