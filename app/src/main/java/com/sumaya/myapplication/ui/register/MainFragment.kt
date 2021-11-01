@@ -99,9 +99,9 @@ class MainFragment : Fragment() {
 
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(getString(R.string.Reset))
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(getString(R.string.Are))
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
@@ -117,21 +117,21 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = arrayOf(getString(R.string.male), getString(R.string.Female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.Chooseyourgender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.Cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo("name",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)
@@ -139,7 +139,7 @@ class MainFragment : Fragment() {
         nextFragment.arguments = bundle
         activity.supportFragmentManager.beginTransaction()
             .replace(R.id.container , nextFragment)
-            .addToBackStack("show personal info")
+            .addToBackStack(getString(R.string.showpersonalinfo))
             .commit()
     }
 

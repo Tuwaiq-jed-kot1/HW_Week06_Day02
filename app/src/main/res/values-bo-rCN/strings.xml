@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">对话框</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">取消</string>
+    <string name="show_info">显示信息</string>
+    <string name="name">姓名：</string>
+    <string name="birthday">生日：</string>
+    <string name="phone">电话：</string>
+    <string name="gender">性别：</string>
+    <string name="register">注册</string>
+    <string name="nameHint">姓名</string>
+    <string name="phoneHint">电话号码</string>
+    <string name="genderHint">性别</string>
+    <string name="send">发送</string>
+    <string name="clear">清除</string>
+    <string name="brithday">生日</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="phone_number">電話號碼</string>
+    <string name="male" > 男性</string>
+    <string name="Female"> 女性</string>
+    <string name="Are">您確定要清除所有條目嗎？</string>
+    <string name="Cancel">取消</string>
+    <string name="Chooseyourgender">選擇你的性別：</string>
+    <string name="showpersonalinfo">顯示個人信息</string>
+    <string name="Reset" > 重啟</string>
+</resources>
