@@ -97,6 +97,7 @@ class MainFragment : Fragment() {
             .show()
     }
 
+
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
         alert.setTitle("Reset")

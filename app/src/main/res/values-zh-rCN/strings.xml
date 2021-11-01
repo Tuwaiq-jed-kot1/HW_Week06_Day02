@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">對話</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="cancel">取消</string>
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="register">登記</string>
+    <string name="Name">姓名:</string>
+    <string name="name">姓名</string>
+    <string name="hintName">姓名</string>
+    <string name="brithday">生日:</string>
+    <string name="formatHintdd_mm_yyyy">日/月/年</string>
+    <string name="hint_phone_number">電話號碼</string>
+    <string name="gender">性別:</string>
+    <string name="hint_gender">性別</string>
+    <string name="send">發送</string>
+    <string name="clear">清除</string>
+    <string name="hint_show_info">顯示信息</string>
+    <string name="hint_name">姓名</string>
+    <string name="hint_birthday">生日</string>
+    <string name="hint_phone">電話</string>
+    <string name="hintgender">性別</string>
+</resources>
