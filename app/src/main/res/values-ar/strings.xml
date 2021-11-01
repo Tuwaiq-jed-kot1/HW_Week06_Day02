@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dialog</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="key">المفتاح</string>
+    <string name="cancel">إلغاء</string>
+    <string name="hello_blank_fragment">مرحبا قطع فارغة</string>
+    <string name="register">تسجيل</string>
+    <string name="name">الإسم</string>
+    <string name="brithday">الميلاد</string>
+    <string name="gender">الجنس</string>
+    <string name="Gender">الجنس</string>
+    <string name="send">إرسال</string>
+    <string name="clear">مسح</string>
+    <string name="Name">الإسم</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="show_infao">إظهار المعلومات</string>
+    <string name="nameI">الإسم</string>
+    <string name="birthday">الميلاد</string>
+    <string name="phone">الرقم</string>
+    <string name="genderI">الجنس</string>
+</resources>
