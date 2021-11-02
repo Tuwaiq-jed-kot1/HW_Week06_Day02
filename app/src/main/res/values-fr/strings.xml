@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Dialogue</string>
+    <string name = "yes"> Oui </ string>
+    <string name = "no"> Non </ string>
+    <string name = "key"> 12CGUU </string>
+    <string name = "cancel"> annuler </ string>
+    <string name = "hello_blank_fragment"> Bonjour fragment vierge</ string>
+    <string name = "show_info"> Afficher les informations </ string>
+    <string name = "name">  Nom </ string>
+    <string name = "birthday"> Anniversaire </ string>
+    <string name = "phone"> Téléphone </ string>
+    <string name = "gender"> Sexe </ string>
+    <string name = "register"> S\'inscrire  </ string>
+    <string name = "send"> Envoyer </ string>
+    <string name = "clear"> Effacer </ string>
+    <string name="txt_name"> Nom:</string>
+    <string name="et_name"> Nom</string>
+    <string name="txt_brithday">Anniversaire:</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="phone_number">Téléphone:</string>
+    <string name="txt_gender">Sexe:</string>
+    <string name="txt_input_gender">Sexe</string>
+</resources>

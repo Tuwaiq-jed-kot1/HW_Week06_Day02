@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الحوار</string>
+    <string name = "yes"> نعم </ string>
+    <string name = "no"> لا </ string>
+    <string name = "key"> 12CGUU </string>
+    <string name = "cancel"> إلغاء </ string>
+    <string name = "hello_blank_fragment"> مرحبا، قطعة فارغة </ string>
+    <string name = "show_info"> إظهار المعلومات </ string>
+    <string name = "name"> الاسم </ string>
+    <string name = "birthday"> عيد الميلاد </ string>
+    <string name = "phone"> الهاتف </ string>
+    <string name = "gender"> الجنس: </ string>
+    <string name = "register"> تسجيل </ string>
+    <string name = "send"> إرسال </ string>
+    <string name = "clear"> مسح </ string>
+    <string name="txt_name">الاسم:</string>
+    <string name="et_name">الاسم</string>
+    <string name="txt_brithday">عيد الميلاد:</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="phone_number">الهاتف:</string>
+    <string name="txt_gender">الجنس:</string>
+    <string name="txt_input_gender">ذكر / انثى</string>
+</resources>

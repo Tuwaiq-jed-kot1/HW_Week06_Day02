@@ -4,6 +4,20 @@
     <string name="no">No</string>
     <string name="key">12CGUU</string>
     <string name="cancel">cancel</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_info">Show Info</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+    <string name="txt_name">Name:</string>
+    <string name="et_name">name</string>
+    <string name="txt_brithday">Brithday:</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="phone_number">phone number</string>
+    <string name="txt_gender">Gender:</string>
+    <string name="txt_input_gender">gender</string>
+    <string name="send">Send</string>
+    <string name="clear">Clear</string>
 </resources>
