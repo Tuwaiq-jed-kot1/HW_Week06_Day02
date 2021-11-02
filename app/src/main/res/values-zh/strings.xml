@@ -17,4 +17,12 @@
     <string name="genderHint">性别</string>
     <string name="send">发送</string>
     <string name="clear">清除</string>
+    <string-array name="gender_choice">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string name="Reset">重启</string>
+    <string name="clear_all_confirmation">您确定要删除所有条目吗?</string>
+
+    <string name="Choose_your_gender">选择你的性别:</string>
 </resources>

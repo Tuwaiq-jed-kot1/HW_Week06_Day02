@@ -17,4 +17,12 @@
     <string name = "genderHint">género</string>
     <string name = "send">Enviar</string>
     <string name = "clear">Borrar</string>
+    <string-array name="gender_choice">
+        <item>masculino</item>
+        <item>mujer</item>
+    </string-array>
+    <string name="Reset">reinicializar</string>
+    <string name="clear_all_confirmation">Está seguro de que desea borrar todas las entradas?</string>
+
+    <string name="Choose_your_gender">selecciona tu género:</string>
 </resources>

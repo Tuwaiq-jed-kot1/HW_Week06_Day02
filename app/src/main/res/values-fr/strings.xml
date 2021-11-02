@@ -17,4 +17,12 @@
     <string name="genderHint">sexe</string>
     <string name="send">Envoyer</string>
     <string name="clear">Effacer</string>
+    <string-array name="gender_choice">
+        <item>Masculin</item>
+        <item>femelle</item>
+    </string-array>
+    <string name="Reset">réinitialiser</string>
+    <string name="clear_all_confirmation">Choisissez votre genre?</string>
+
+    <string name="Choose_your_gender">Choisissez votre genre:</string>
 </resources>

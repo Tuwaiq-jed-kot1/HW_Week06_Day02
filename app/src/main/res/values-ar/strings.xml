@@ -17,4 +17,12 @@
     <string name = "genderHint">ذكر / انثى</string>
     <string name = "send">إرسال</string>
     <string name = "clear">حذف</string>
+    <string-array name="gender_choice">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+    <string name="Reset">اعاده</string>
+    <string name="clear_all_confirmation">متأكد من حذف كل الخانات؟</string>
+
+    <string name="Choose_your_gender">اختر جنسك:</string>
 </resources>
