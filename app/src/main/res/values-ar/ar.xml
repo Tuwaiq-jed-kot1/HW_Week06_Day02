@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">مربع الحوار</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">إلغاء</string>
+    <string name="hello_blank_fragment">مرحبا، خانة فارغة</string>
+    <string name="show_info">إظهار المعلومات</string>
+    <string name="name">الاسم:</string>
+    <string name="birthday">تاريخ الميلاد:</string>
+    <string name="phone">الهاتف:</string>
+    <string name="gender">النوع:</string>
+    <string name="register">تسجيل</string>
+    <string name="nameHint">الاسم</string>
+    <string name="phoneHint">رقم الهاتف</string>
+    <string name="genderHint">ذكر / انثى</string>
+    <string name="send">إرسال</string>
+    <string name="clear">مسح</string>
+    <string-array name="array_gender">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+</resources>

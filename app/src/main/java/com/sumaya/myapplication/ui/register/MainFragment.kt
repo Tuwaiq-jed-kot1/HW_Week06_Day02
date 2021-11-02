@@ -2,6 +2,8 @@ package com.sumaya.myapplication.ui.register
 
 import android.app.AlertDialog
 import android.app.DatePickerDialog
+import android.icu.text.DateFormat.YEAR_ABBR_MONTH
+import android.icu.text.DateFormat.getPatternInstance
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,6 +17,7 @@ import com.hbb20.CountryCodePicker
 import com.sumaya.myapplication.R
 import com.sumaya.myapplication.data.PersonInfo
 import com.sumaya.myapplication.ui.displayInfo.InfoFragment
+import java.text.DateFormat
 import java.util.*
 
 const val KEY = "F019D26C"
@@ -117,7 +120,7 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = resources.getStringArray(R.array.array_gender)
         val select = AlertDialog.Builder(this.context)
         select.setTitle("Choose your gender:")
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
