@@ -13,7 +13,7 @@
         <TextView
             android:textSize="60dp"
             android:gravity="center"
-            android:text="Register"
+            android:text="@string/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="40dp"/>
@@ -24,12 +24,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Name:"
+                android:textSize="20sp"
+                android:text="@string/name"
                 android:paddingRight="10dp"  />
             <EditText
-                android:textSize="20dp"
-                android:hint="name"
+                android:textSize="20sp"
+                android:hint="@string/nameHint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -42,16 +42,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="Brithday:"
+                android:textSize="20sp"
+                android:text="@string/birthday"
                 android:paddingRight="10dp"  />
+
             <TextView
-                android:textSize="20dp"
-                android:hint="DD/MM/YYYY"
-                android:inputType="date"
                 android:id="@+id/pickDate"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/dd_mm_yyyy"
+                android:inputType="date"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
         <LinearLayout
             android:layout_marginLeft="30dp"
@@ -65,7 +67,7 @@
                 android:layout_height="wrap_content"/>
             <EditText
                 android:id="@+id/phone"
-                android:hint="phone number"
+                android:hint="@string/phoneHint"
                 android:inputType="phone"
                 android:textSize="20dp"
                 android:layout_width="match_parent"
@@ -81,15 +83,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="Gender:"
+                android:text="@string/gender"
                 android:paddingRight="10dp"  />
+
             <TextView
-                android:textSize="20dp"
-                android:hint="gender"
-                android:inputType="date"
                 android:id="@+id/gender"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:hint="@string/genderHint"
+                android:inputType="date"
+                android:textSize="20dp"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -101,12 +105,12 @@
             <Button
                 android:layout_margin="10dp"
                 android:id="@+id/send"
-                android:text="Send"
+                android:text="@string/send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <Button
                 android:id="@+id/clear"
-                android:text="Clear"
+                android:text="@string/clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
