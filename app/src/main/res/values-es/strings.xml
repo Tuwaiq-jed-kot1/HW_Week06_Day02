@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diálogo</string>
+    <string name="yes">sí</string>
+    <string name="no">No</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset">Reiniciar</string>
+    <string name="clearMsg">¿Está seguro de que desea borrar todas las entradas?</string>
+    <string name="male">Masculino</string>
+    <string name="female">Masculina</string>
+    <string name="chooseGender">Selecciona tu género:</string>
+    <string name="name">Nombre</string>
+    <string name="birthday">Cumpleaños</string>
+    <string name="phone">Teléfono</string>
+    <string name="gender">Género</string>
+    <string name="name1">Nombre:</string>
+    <string name="birthday1">Cumpleaños:</string>
+    <string name="gender1">Género:</string>
+    <string name="phone1">Teléfono:</string>
+    <string name="hello">Hola</string>
+    <string name="show_info">Mostrar información</string>
+    <string name="register">Registrarse</string>
+    <string name="name2">nombre</string>
+    <string name="gender2">género</string>
+    <string name="send">Enviar</string>
+    <string name="clear">Clara</string>
+    <string name="phone_number">Número de teléfono</string>
+</resources>

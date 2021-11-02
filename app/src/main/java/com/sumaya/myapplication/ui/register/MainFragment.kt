@@ -99,9 +99,9 @@ class MainFragment : Fragment() {
 
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(getString(R.string.reset))
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(getString(R.string.clearMsg))
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
@@ -117,14 +117,14 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = arrayOf(getString(R.string.male),getString(R.string.female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.chooseGender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()

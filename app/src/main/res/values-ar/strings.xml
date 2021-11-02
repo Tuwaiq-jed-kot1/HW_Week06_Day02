@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الحوار</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">إلغاء</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="clearMsg">هل أنت متأكد من حذف المدخلات؟</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="chooseGender">اختار نوع جنسك:</string>
+    <string name="name">الأسم</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="gender">الجنس</string>
+    <string name="name1">الأسم:</string>
+    <string name="birthday1">تاريخ الميلاد:</string>
+    <string name="gender1">الجنس:</string>
+    <string name="phone1">رقم الجوال:</string>
+    <string name="hello">مرحبا</string>
+    <string name="show_info">إظهار المعلومات</string>
+    <string name="register">التسجيل</string>
+    <string name="name2">الأسم</string>
+    <string name="gender2">الجنس</string>
+    <string name="send">إرسال</string>
+    <string name="clear">مسح</string>
+    <string name="phone_number">رقم الجوال</string>
+</resources>
