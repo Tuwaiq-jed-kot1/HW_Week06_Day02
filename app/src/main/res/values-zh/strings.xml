@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">對話框</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="key">12CGUU</string>
+    <string name="cancel">取消</string>
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="show_info">顯示信息</string>
+    <string name="name">姓名</string>
+    <string name="birthday">生日</string>
+    <string name="phone">電話</string>
+    <string name="gender">性別</string>
+    <string name="register">註冊</string>
+    <string name="brithday">生日：</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="phone_number">電話號碼</string>
+    <string name="genderMain">性別：</string>
+    <string name="clear">清除</string>
+    <string name="send">發送</string>
+    <string name="gender_hint">性別</string>
+    <string name="name_hint">姓名</string>
+    <string name="name_hint1">姓名</string>
+    <string name="birthday_Info">生日</string>
+    <string name="phone_info">電話</string>
+    <string name="gender_info">性別</string>
+    <string name="Choose_your_gender">"選擇你的性別:"</string>
+    <string-array name="array_gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="show_personal_info">"顯示個人信息"</string>
+    <string name="Qu">"您確定要清除所有條目嗎？"</string>
+    <string name="Reset">"重置"</string>
+</resources>

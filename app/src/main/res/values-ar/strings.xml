@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">مربع الحوار</string>
+        <string name="yes">نعم</string>
+        <string name="no">لا</string>
+        <string name="key">12CGUU</string>
+        <string name="cancel">تراجع</string>
+        <string name="hello_blank_fragment">مرحبا بك</string>
+        <string name="show_info">عرض المعلومات</string>
+        <string name="name">الاسم:</string>
+        <string name="birthday">يوم الميلاد:</string>
+        <string name="phone">رقم الهاتف</string>
+        <string name="gender">الجنس</string>
+        <string name="register">التسجيل</string>
+        <string name="brithday">يوم الميلاد:</string>
+        <string name="dd_mm_yyyy">يوم/شهر/سنه</string>
+        <string name="phone_number">رقم الهاتف</string>
+        <string name="genderMain">الجنس:</string>
+        <string name="clear">مسح</string>
+        <string name="send">إرسال</string>
+        <string name="gender_hint">الجنس</string>
+        <string name="name_hint">الاسم</string>
+    <string name="name_hint1">الاسم</string>
+    <string name="birthday_Info">يوم الميلاد</string>
+    <string name="phone_info">رقم الهاتف</string>
+    <string name="gender_info">الجنس</string>
+<!--    <string name="Male">ذكر</string>-->
+<!--    <string name="female">انثى</string>-->
+    <string name="Choose_your_gender">"اخنر جنسك:"</string>
+    <string-array name="array_gender">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+    <string name="show_personal_info">"عرض المعلومات"</string>
+    <string name="Reset">"اعادة التعين"</string>
+    <string name="Qu">"هل انت متأكد تريد مسح جميع المدخلات؟"</string>
+
+</resources>

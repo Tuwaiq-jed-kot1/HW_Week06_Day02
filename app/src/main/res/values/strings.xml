@@ -4,6 +4,33 @@
     <string name="no">No</string>
     <string name="key">12CGUU</string>
     <string name="cancel">cancel</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_info">Show Info</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+    <string name="brithday">Brithday:</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="phone_number">phone number</string>
+    <string name="genderMain">Gender:</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="gender_hint">gender</string>
+    <string name="name_hint">name</string>
+    <string name="name_hint1">name</string>
+    <string name="birthday_Info">Birthday</string>
+    <string name="phone_info">phone</string>
+    <string name="gender_info">Gender</string>
+    <string name="Choose_your_gender">"Choose your gender:"</string>
+    <string-array name="array_gender">
+        <item>Male</item>
+        <item>female</item>
+    </string-array>
+    <string name="show_personal_info">"show personal info"</string>
+    <string name="Qu">"Are you sure you want to clear all entries?"</string>
+    <string name="Reset">"Reset"</string>
+
+
 </resources>

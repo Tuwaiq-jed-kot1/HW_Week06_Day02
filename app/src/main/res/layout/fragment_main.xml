@@ -13,7 +13,7 @@
         <TextView
             android:textSize="60dp"
             android:gravity="center"
-            android:text="Register"
+            android:text="@string/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="40dp"/>
@@ -22,14 +22,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/txtname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="Name:"
+                android:text="@string/name"
                 android:paddingRight="10dp"  />
             <EditText
                 android:textSize="20dp"
-                android:hint="name"
+                android:hint="@string/name_hint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -43,11 +44,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="Brithday:"
+                android:text="@string/brithday"
                 android:paddingRight="10dp"  />
             <TextView
                 android:textSize="20dp"
-                android:hint="DD/MM/YYYY"
+                android:hint="@string/dd_mm_yyyy"
                 android:inputType="date"
                 android:id="@+id/pickDate"
                 android:layout_width="match_parent"
@@ -65,7 +66,7 @@
                 android:layout_height="wrap_content"/>
             <EditText
                 android:id="@+id/phone"
-                android:hint="phone number"
+                android:hint="@string/phone_number"
                 android:inputType="phone"
                 android:textSize="20dp"
                 android:layout_width="match_parent"
@@ -81,11 +82,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="Gender:"
+                android:text="@string/gender"
                 android:paddingRight="10dp"  />
             <TextView
                 android:textSize="20dp"
-                android:hint="gender"
+                android:hint="@string/gender_hint"
                 android:inputType="date"
                 android:id="@+id/gender"
                 android:layout_width="match_parent"
@@ -101,12 +102,12 @@
             <Button
                 android:layout_margin="10dp"
                 android:id="@+id/send"
-                android:text="Send"
+                android:text="@string/send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <Button
                 android:id="@+id/clear"
-                android:text="Clear"
+                android:text="@string/clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>

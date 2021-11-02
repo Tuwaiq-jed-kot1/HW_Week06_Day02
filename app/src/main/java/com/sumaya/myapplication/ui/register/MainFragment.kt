@@ -37,6 +37,7 @@ class MainFragment : Fragment() {
     private lateinit var send: Button
     private lateinit var clear : Button
     private lateinit var date :String
+    private lateinit var name:TextView
 
 
     override fun onCreateView(
@@ -99,9 +100,9 @@ class MainFragment : Fragment() {
 
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(R.string.Reset)
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(R.string.Qu)
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
@@ -117,21 +118,21 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems =resources.getStringArray(R.array.array_gender)
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(R.string.Choose_your_gender)
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(R.string.cancel) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo(" ",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)
@@ -139,7 +140,7 @@ class MainFragment : Fragment() {
         nextFragment.arguments = bundle
         activity.supportFragmentManager.beginTransaction()
             .replace(R.id.container , nextFragment)
-            .addToBackStack("show personal info")
+            .addToBackStack(R.string.show_personal_info.toString())
             .commit()
     }
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Cuadro de diálogo </string>
+    <string name = "yes"> Sí </string>
+    <string name = "no"> No </string>
+    <string name = "key"> 12CGUU </string>
+    <string name = "cancel"> cancelar </string>
+    <string name = "hello_blank_fragment"> Hola fragmento en blanco </string>
+    <string name = "show_info"> Mostrar información </string>
+    <string name = "name"> Nombre </string>
+    <string name = "birthday"> Cumpleaños </string>
+    <string name = "phone"> Teléfono </string>
+    <string name = "gender"> Género </string>
+    <string name = "register"> Registrarse </string>
+    <string name = "brithday"> Brithday: </string>
+    <string name = "dd_mm_yyyy"> DD / MM / AAAA </string>
+    <string name = "phone_number"> número de teléfono </string>
+    <string name = "genderMain"> Género: </string>
+    <string name = "clear"> Borrar </string>
+    <string name = "send"> Enviar </string>
+    <string name = "gender_hint"> género </string>
+    <string name = "name_hint"> nombre </string>
+    <string name="name_hint1">nombre</string>
+    <string name="birthday_Info">Brithday</string>
+    <string name="phone_info">Teléfono</string>
+    <string name="gender_info">género</string>
+    <string name="Choose_your_gender">"Elija su género:"</string>
+    <string-array name="array_gender">
+        <item>Hombre</item>
+        <item>mujer</item>
+    </string-array>
+    <string name="show_personal_info">"show personal info"</string>
+    <string name="Qu">"Are you sure you want to clear all entries?"</string>
+    <string name="Reset">"Reset"</string>
+</resources>
