@@ -4,21 +4,30 @@
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="cancel">إلغاء</string>
-    <string name="hello_blank_fragment">أهلا فراقمنت فارغ</string>
+    <string name="hello_blank_fragment">سلام بشكة، فراقمنت فاضي</string>
     <string name="register">تسجيل</string>
     <string name="Name">الاسم:</string>
     <string name="name">الاسم</string>
     <string name="hintName">الاسم</string>
-    <string name="brithday">يوم الميلاد</string>
-    <string name="formatHintdd_mm_yyyy">اليوم/الشهر/السنة</string>
+    <string name="birthday">يوم الميلاد</string>
+    <string name="format_hint_dd_mm_yyyy">اليوم/الشهر/السنة</string>
     <string name="hint_phone_number">رقم الهاتف</string>
     <string name="gender">نوع الجنس:</string>
     <string name="hint_gender">نوع الجنس</string>
     <string name="send">إرسال</string>
-    <string name="clear">مسح</string>
+    <string name="clear">مسح كافة المدخلات</string>
     <string name="hint_show_info">إظهار المعلومات</string>
     <string name="hint_name">الاسم</string>
     <string name="hint_birthday">اكتب تاريخ الميلاد</string>
     <string name="hint_phone">رقم الهاتف</string>
-    <string name="hintgender">نوع الجنس</string>
+    <string name="hint_Gender">نوع الجنس</string>
+    <string name="alert_title">إعادة ضبط المدخلات</string>
+    <string name="alert_message">هل أنت متأكد أنك تريد مسح كافة الإدخالات؟</string>
+    <string name="select_title">اختر جنسك:</string>
+    <string-array name="gender_answer_array">
+        <item>ذكر</item>
+        <item>أنثى</item>
+        <item>أفضل ألا أقول</item>
+    </string-array>
+    <string name="select_neutral_button">إلغاء</string>
 </resources>

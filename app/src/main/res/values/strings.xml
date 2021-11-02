@@ -8,8 +8,8 @@
     <string name="Name">Name:</string>
     <string name="name">name</string>
     <string name="hintName">name</string>
-    <string name="brithday">Brithday:</string>
-    <string name="formatHintdd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="birthday">Brithday:</string>
+    <string name="format_hint_dd_mm_yyyy">DD/MM/YYYY</string>
     <string name="hint_phone_number">phone number</string>
     <string name="gender">Gender:</string>
     <string name="hint_gender">gender</string>
@@ -19,5 +19,14 @@
     <string name="hint_name">Name</string>
     <string name="hint_birthday">Birthday</string>
     <string name="hint_phone">Phone</string>
-    <string name="hintgender">Gender</string>
+    <string name="hint_Gender">Gender</string>
+    <string name="alert_title">Reset</string>
+    <string name="alert_message">Are you sure you want to clear all entries?</string>
+    <string name="select_title">Choose your gender:</string>
+    <string-array name="gender_answer_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>I'd rather not say</item>
+    </string-array>
+    <string name="select_neutral_button">Cancel</string>
 </resources>

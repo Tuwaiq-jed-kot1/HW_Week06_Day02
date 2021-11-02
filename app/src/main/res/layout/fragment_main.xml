@@ -28,6 +28,7 @@
                 android:text="@string/name"
                 android:paddingEnd="10dp"  />
             <EditText
+                android:id="@+id/etName"
                 android:textSize="20sp"
                 android:hint="@string/hintName"
                 android:layout_width="match_parent"
@@ -43,11 +44,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="@string/brithday"
+                android:text="@string/birthday"
                 android:paddingEnd="10dp"  />
             <TextView
                 android:textSize="20sp"
-                android:hint="@string/formatHintdd_mm_yyyy"
+                android:hint="@string/format_hint_dd_mm_yyyy"
                 android:inputType="date"
                 android:id="@+id/pickDate"
                 android:layout_width="match_parent"

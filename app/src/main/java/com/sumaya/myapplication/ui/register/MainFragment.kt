@@ -30,6 +30,7 @@ class MainFragment : Fragment() {
     private lateinit var ccp: CountryCodePicker
     private var countryCode:String? = null
     private var countryName:String? = null
+    private lateinit var name: EditText
     private lateinit var phone: EditText
 
     private lateinit var gender : TextView
@@ -48,6 +49,9 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // 0. Name
+        name = view.findViewById(R.id.etName)
 
         // 1. Date Dialog
         pickDate= view.findViewById(R.id.pickDate)
@@ -100,9 +104,9 @@ class MainFragment : Fragment() {
 
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(R.string.alert_title)
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(R.string.alert_message)
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
@@ -118,21 +122,22 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        //val listItems = arrayOf("Male", "Female")
+        val listItems = resources.getStringArray(R.array.gender_answer_array)
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(R.string.select_title)
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(R.string.select_neutral_button) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo(name.toString(),date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)

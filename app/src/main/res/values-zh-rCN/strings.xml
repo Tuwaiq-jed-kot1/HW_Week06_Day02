@@ -9,8 +9,8 @@
     <string name="Name">姓名:</string>
     <string name="name">姓名</string>
     <string name="hintName">姓名</string>
-    <string name="brithday">生日:</string>
-    <string name="formatHintdd_mm_yyyy">日/月/年</string>
+    <string name="birthday">生日:</string>
+    <string name="format_hint_dd_mm_yyyy">日/月/年</string>
     <string name="hint_phone_number">電話號碼</string>
     <string name="gender">性別:</string>
     <string name="hint_gender">性別</string>
@@ -20,5 +20,14 @@
     <string name="hint_name">姓名</string>
     <string name="hint_birthday">生日</string>
     <string name="hint_phone">電話</string>
-    <string name="hintgender">性別</string>
+    <string name="hint_Gender">性別</string>
+    <string name="alert_title">重啟</string>
+    <string name="alert_message">您確定要清除所有條目嗎？</string>
+    <string name="select_title">選擇您的性別：</string>
+    <string-array name="gender_answer_array">
+        <item>男性</item>
+        <item>女性</item>
+        <item>我寧可不說</item>
+    </string-array>
+    <string name="select_neutral_button">取消</string>
 </resources>

@@ -9,8 +9,8 @@
     <string name="Name">Nombre:</string>
     <string name="name">Nombre</string>
     <string name="hintName">Nombre</string>
-    <string name="brithday">Cumpleaños:</string>
-    <string name="formatHintdd_mm_yyyy">día/mes/año</string>
+    <string name="birthday">Cumpleaños:</string>
+    <string name="format_hint_dd_mm_yyyy">día/mes/año</string>
     <string name="hint_phone_number">número de teléfono</string>
     <string name="gender">Género:</string>
     <string name="hint_gender">género</string>
@@ -20,5 +20,14 @@
     <string name="hint_name">Nombre</string>
     <string name="hint_birthday">Cumpleaños</string>
     <string name="hint_phone">Teléfono</string>
-    <string name="hintgender">Género</string>
+    <string name="hint_Gender">Género</string>
+    <string name="alert_title">Reiniciar</string>
+    <string name="alert_message">¿Está seguro de que desea borrar todas las entradas?</string>
+    <string name="select_title">Selecciona tu género:</string>
+    <string-array name="gender_answer_array">
+        <item>Masculino</item>
+        <item>Masculina</item>
+        <item>prefiero no decir</item>
+    </string-array>
+    <string name="select_neutral_button">Cancelar</string>
 </resources>

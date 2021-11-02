@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"/>
         <TextView
             android:textSize="30sp"
-            android:hint="@string/hintgender"
+            android:hint="@string/hint_Gender"
             android:id="@+id/fIGender"
             android:layout_marginBottom="20dp"
             android:layout_width="match_parent"
