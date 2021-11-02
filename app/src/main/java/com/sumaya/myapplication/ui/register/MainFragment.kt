@@ -15,6 +15,7 @@ import com.hbb20.CountryCodePicker
 import com.sumaya.myapplication.R
 import com.sumaya.myapplication.data.PersonInfo
 import com.sumaya.myapplication.ui.displayInfo.InfoFragment
+import kotlinx.android.synthetic.main.fragment_main.*
 import java.util.*
 
 const val KEY = "F019D26C"
@@ -30,6 +31,7 @@ class MainFragment : Fragment() {
     private lateinit var ccp: CountryCodePicker
     private var countryCode:String? = null
     private var countryName:String? = null
+    private lateinit var editName: EditText
     private lateinit var phone: EditText
 
     private lateinit var gender : TextView
@@ -48,6 +50,8 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        editName = view.findViewById(R.id.name)
 
         // 1. Date Dialog
         pickDate= view.findViewById(R.id.pickDate)
@@ -99,13 +103,14 @@ class MainFragment : Fragment() {
 
     private fun getAlertDialog(){
         val alert = AlertDialog.Builder(this.context)
-        alert.setTitle("Reset")
+        alert.setTitle(getString(R.string.reset))
         alert.setIcon(R.drawable.alert)
-        alert.setMessage("Are you sure you want to clear all entries?")
+        alert.setMessage(getString(R.string.clear_q))
         alert.setPositiveButton(R.string.yes) { dialog, which ->
             pickDate.setText(null)
             phone.setText(null)
             ccp.resetToDefaultCountry()
+            editName.setText(null)
         }
         alert.setNegativeButton(R.string.no) { dialog, which ->
             dialog.cancel()
@@ -117,21 +122,21 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = arrayOf(getString(R.string.male), getString(R.string.female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.choose_gender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo(editName.text.toString(),date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)
