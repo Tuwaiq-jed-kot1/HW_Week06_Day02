@@ -4,46 +4,106 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.displayInfo.InfoFragment">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="50dp"
         android:layout_gravity="center"
+        android:layout_margin="50dp"
         android:orientation="vertical">
+
         <TextView
-            android:textSize="60dp"
-            android:hint="Show Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:layout_marginBottom="20dp"
+            android:hint="@string/show_info"
+            android:textSize="60dp" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:textSize="30dp"
-            android:hint="Name"
-            android:id="@+id/fIName"
-            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fIName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/name"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:textSize="30dp"
-            android:hint="Birthday"
-            android:id="@+id/fIBd"
-            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/birthday"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fIBd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/birthday"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:textSize="30dp"
-            android:hint="Phone"
-            android:id="@+id/fIPhone"
-            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/phone"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fIPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/phone"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:textSize="30dp"
-            android:hint="Gender"
-            android:id="@+id/fIGender"
-            android:layout_marginBottom="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/gender"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fIGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/gender"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+
     </LinearLayout>
 </ScrollView>

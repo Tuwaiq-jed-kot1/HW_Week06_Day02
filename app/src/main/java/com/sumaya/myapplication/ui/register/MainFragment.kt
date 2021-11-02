@@ -33,6 +33,7 @@ class MainFragment : Fragment() {
     private lateinit var phone: EditText
 
     private lateinit var gender : TextView
+    private lateinit var name : TextView
 
     private lateinit var send: Button
     private lateinit var clear : Button
@@ -57,6 +58,8 @@ class MainFragment : Fragment() {
 
         //2. Country Code
         phone = view.findViewById(R.id.phone)
+        name = view.findViewById(R.id.fIName)
+
         ccp = view.findViewById(R.id.pickCode)
         ccp.setOnCountryChangeListener {
             countryCode = ccp.selectedCountryCode
@@ -117,21 +120,21 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = arrayOf(getString(R.string.Male), getString(R.string.Female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.Chooseyourgender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo(name.text.toString(),date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)

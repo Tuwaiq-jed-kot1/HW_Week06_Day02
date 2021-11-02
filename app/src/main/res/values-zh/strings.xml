@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >对话</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="cancel">取消</string>
+    <string name="show_info">显示信息</string>
+    <string name="name">姓名 </string>
+    <string name="birthday">生日</string>
+    <string name="phone">电话</string>
+    <string name="gender">性别</string>
+    <string name="register">登记</string>
+    <string name="clear">清除</string>
+    <string name="dd_mm_yyyy">日/月/年</string>
+    <string name="phone_number">电话号码</string>
+    <string name="send">发送</string>
+    <string name="Male">男性</string>
+    <string name="Female">女性</string>
+    <string name="Chooseyourgender">选择你的性别:</string>
+</resources>

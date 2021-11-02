@@ -40,10 +40,11 @@ class InfoFragment : Fragment() {
             gender = view.findViewById(R.id.fIGender)
 
             requireArguments().getParcelable<PersonInfo>(KEY).let{
-                name.text = "Name: ${it?.name}"
-                brithday.text = "Birthday: ${it?.birthday}"
-                phone.text = "Phone: ${it?.phone}"
-                gender.text = "Gender: ${it?.gender}"
+                //  name.text = "${Resources.getSystem().getString(R.string.name)} :${it?.name}"
+                name.text = ": ${it?.name}"
+                brithday.text = ": ${it?.birthday}"
+                phone.text = ": ${it?.phone}"
+                gender.text = ": ${it?.gender}"
             }
         }
     }

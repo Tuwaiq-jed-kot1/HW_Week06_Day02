@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="app_name">مربع حوار </string>
+    <string name="cancel">إلغاء</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="show_info">عرض المعلومات</string>
+    <string name="name">الاسم </string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="gender">نوع الجنس</string>
+    <string name="register">التسجيل</string>
+    <string name="clear">مسح</string>
+    <string name="dd_mm_yyyy">اليوم/الشهر/السنة</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="send">إرسال</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">أنثى</string>
+    <string name="Chooseyourgender">أختر نوع الجنس :</string>
+</resources>
