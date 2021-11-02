@@ -15,4 +15,7 @@
     <string name="phone_number">phone number</string>
     <string name="send">Send</string>
     <string name="clear">Clear</string>
+    <string name="Male">Male</string>
+    <string name="ahmad">Ahmed</string>
+    <string name="show_personal_info">show personal info</string>
 </resources>

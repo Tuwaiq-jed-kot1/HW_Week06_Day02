@@ -15,4 +15,10 @@
     <string name="phone_number">"número de teléfono "</string>
     <string name="send">enviar</string>
     <string name="clear">clara</string>
+    <string name="Male">masculina</string>
+    <string name="Female">mujer</string>
+    <string name="Choose_your_gender">Choose your gender:</string>
+    <string name="Cancel">cancelar</string>
+    <string name="ahmad">Ahmed</string>
+    <string name="show_personal_info">mostrar información personal</string>
 </resources>

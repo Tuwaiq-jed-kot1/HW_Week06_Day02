@@ -117,21 +117,21 @@ class MainFragment : Fragment() {
     }
 
     private fun getSelectionDialog(){
-        val listItems = arrayOf("Male", "Female")
+        val listItems = arrayOf(getString(R.string.Male), getString(R.string.Female))
         val select = AlertDialog.Builder(this.context)
-        select.setTitle("Choose your gender:")
+        select.setTitle(getString(R.string.Choose_your_gender))
         select.setSingleChoiceItems(listItems, -1) { dialogInterface, i ->
             gender.text = listItems[i]
             dialogInterface.dismiss()
         }
-        select.setNeutralButton("Cancel") { dialog, which ->
+        select.setNeutralButton(getString(R.string.Cancel)) { dialog, which ->
             dialog.cancel()
         }
         select.show()
     }
 
     private fun displayPersonalInfo(view: View){
-        val info = PersonInfo("Ahmed",date,"+"+countryCode+phone.text.toString(),gender.text.toString())
+        val info = PersonInfo(getString(R.string.ahmad),date,"+"+countryCode+phone.text.toString(),gender.text.toString())
         val activity = view.context as AppCompatActivity
         val bundle = Bundle()
         bundle.putParcelable(KEY,info)
@@ -139,7 +139,7 @@ class MainFragment : Fragment() {
         nextFragment.arguments = bundle
         activity.supportFragmentManager.beginTransaction()
             .replace(R.id.container , nextFragment)
-            .addToBackStack("show personal info")
+            .addToBackStack(getString(R.string.show_personal_info))
             .commit()
     }
 

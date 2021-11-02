@@ -15,4 +15,10 @@
     <string name="phone_number">電話號碼</string>
     <string name="send">發送</string>
     <string name="clear">清除</string>
+    <string name="Male">"男性 "</string>
+    <string name="Female">"女性 "</string>
+    <string name="Choose_your_gender">選擇你的性別 :</string>
+    <string name="Cancel">"取消 "</string>
+    <string name="ahmad">"艾哈邁德 "</string>
+    <string name="show_personal_info">"顯示個人信息 "</string>
 </resources>

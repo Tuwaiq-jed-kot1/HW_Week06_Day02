@@ -15,4 +15,10 @@
     <string name="phone_number">رقم الهاتف</string>
     <string name="send">ارسال</string>
     <string name="clear">مسح</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">انثى</string>
+    <string name="Choose_your_gender">اختر جنسك:</string>
+    <string name="Cancel">الغاء</string>
+    <string name="ahmad">احمد</string>
+    <string name="show_personal_info">المعلومات الشخصية</string>
 </resources>
